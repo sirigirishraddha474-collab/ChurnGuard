@@ -1,0 +1,66 @@
+{
+  "best_model": "Logistic Regression",
+  "roc_auc": 0.8413,
+  "features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "numeric_features": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_features": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.7381,
+      "precision": 0.5043,
+      "recall": 0.7834,
+      "f1": 0.6136,
+      "roc_auc": 0.8413
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7601,
+      "precision": 0.5354,
+      "recall": 0.7273,
+      "f1": 0.6168,
+      "roc_auc": 0.8353
+    }
+  ]
+}
